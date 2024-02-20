@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="415C405A-6CCC-ABB0-C4BC-D26067496216" name="SESION">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:14:51 UTC</createdTime>
+<ownerDesignName>lifefit</ownerDesignName>
+<engineerTo>
+<item key="1204FDEB-8020-350D-822E-86F4893F743C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Inicio" id="F1DE3B77-C0BC-D390-3889-42033D0556A7">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:14:57 UTC</createdTime>
+<ownerDesignName>lifefit</ownerDesignName>
+<engineerTo>
+<item key="1204FDEB-8020-350D-822E-86F4893F743C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fin" id="38F4D4D7-9E38-F1F0-1816-388A98C22EAA">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:17:10 UTC</createdTime>
+<ownerDesignName>lifefit</ownerDesignName>
+<engineerTo>
+<item key="1204FDEB-8020-350D-822E-86F4893F743C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Presencial" id="6FC22467-0998-6115-8713-B222E1478326">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:15:33 UTC</createdTime>
+<ownerDesignName>lifefit</ownerDesignName>
+<engineerTo>
+<item key="1204FDEB-8020-350D-822E-86F4893F743C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RUTINA_ID" id="E70031F3-1595-EDDB-7F00-C88DC14E1AF8">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:15:56 UTC</createdTime>
+<generatorID>9BD5E067-3A26-DA2C-DB7E-A288EF32376A</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<engineerTo>
+<item key="1204FDEB-8020-350D-822E-86F4893F743C" value="true"/>
+</engineerTo>
+<referedAttribute>C6FEAC41-D81B-D08D-9952-047A809D8BCE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Descripcion" id="AE36E48B-47F2-ED18-03B9-FDCBD12DFCA7">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:16:51 UTC</createdTime>
+<ownerDesignName>lifefit</ownerDesignName>
+<engineerTo>
+<item key="1204FDEB-8020-350D-822E-86F4893F743C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Video" id="971E983C-142E-A49B-F89D-8B058759F77E">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:17:50 UTC</createdTime>
+<ownerDesignName>lifefit</ownerDesignName>
+<engineerTo>
+<item key="1204FDEB-8020-350D-822E-86F4893F743C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ENTRENA_CLIENTE_ID" id="C0308682-FC3C-CBCF-06EA-EA7B7A891BCD">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:25:29 UTC</createdTime>
+<generatorID>B922FF08-636C-31FE-4200-17272F7E8E7F</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<engineerTo>
+<item key="1204FDEB-8020-350D-822E-86F4893F743C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>3D24ECF1-ED7C-505E-C92B-FDCFF653C3B2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ENTRENA_Entrenadores_ID" id="2B218654-80C2-616F-AEFD-612D696D639D">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:25:29 UTC</createdTime>
+<generatorID>B922FF08-636C-31FE-4200-17272F7E8E7F</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<engineerTo>
+<item key="1204FDEB-8020-350D-822E-86F4893F743C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>D7AB1153-2D81-F668-AF6F-ACB7658924B3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7A52F863-7DAD-24D7-ADFE-6CA6CF91463B" name="SESION PK">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:15:16 UTC</createdTime>
+<ownerDesignName>lifefit</ownerDesignName>
+<engineerTo>
+<item key="1204FDEB-8020-350D-822E-86F4893F743C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E70031F3-1595-EDDB-7F00-C88DC14E1AF8</attributeRef>
+<attributeRef>F1DE3B77-C0BC-D390-3889-42033D0556A7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

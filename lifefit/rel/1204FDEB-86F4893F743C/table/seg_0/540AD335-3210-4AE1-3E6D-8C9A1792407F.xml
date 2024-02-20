@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="540AD335-3210-4AE1-3E6D-8C9A1792407F" name="DIETA">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>F6801A05-4400-1549-35D6-28E4FD1A4100</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="2E5404FA-D41C-8DAC-8041-9A65413F13E7">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>514DC4CA-695F-E0C6-B5BA-16AB11F63A4A</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="C09C6D89-B6C0-2465-7A66-2C250BCDD6BD">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>7E98D937-EC6E-3115-B15A-0411FFA472D6</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="A536B154-945B-3A62-757A-01AB5C9914F2">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>5215A477-52B5-96E2-A0A7-EB68082910E7</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo" id="49DD65A0-F438-CD3C-85E5-9694D5F28128">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>7EFDCCFB-8975-24DA-7BC9-E85296A3CC54</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E86C21B0-6438-CCC5-0A58-AAC16459E77A" name="DIETA_PK">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>ED6FCE1A-657D-8D7A-8A28-050885360735</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E5404FA-D41C-8DAC-8041-9A65413F13E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

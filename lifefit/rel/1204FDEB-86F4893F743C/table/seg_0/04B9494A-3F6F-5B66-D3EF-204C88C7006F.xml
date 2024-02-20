@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="04B9494A-3F6F-5B66-D3EF-204C88C7006F" name="SESION">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>415C405A-6CCC-ABB0-C4BC-D26067496216</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Inicio" id="4B26BA60-139F-B379-C3B3-3906FD45328E">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>F1DE3B77-C0BC-D390-3889-42033D0556A7</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fin" id="57744F10-44C6-949F-6813-569C96B6ACFE">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>38F4D4D7-9E38-F1F0-1816-388A98C22EAA</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Presencial" id="DF8562D8-55DB-A3C4-D69C-FDE4DCB7A77C">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>6FC22467-0998-6115-8713-B222E1478326</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RUTINA_ID" id="4A0265AE-4989-5BCC-0B52-E1DB5F10DEE7">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>E70031F3-1595-EDDB-7F00-C88DC14E1AF8</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="16AA1F39-7CBC-28D7-32AC-26182FEE97A9">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>AE36E48B-47F2-ED18-03B9-FDCBD12DFCA7</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Video" id="212C99D5-48DD-FF80-239F-3021A0350429">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>971E983C-142E-A49B-F89D-8B058759F77E</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENTRENA_CLIENTE_ID" id="C0DACCEF-D0B2-DCA5-A44D-16DFAB744DAA">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>C0308682-FC3C-CBCF-06EA-EA7B7A891BCD</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C638DD42-AE35-B220-4572-BD0F1EACF8B1" referredColumn="E050F8EE-DC58-211A-A3C6-15F00538737E"/>
+</associations>
+</Column>
+<Column name="ENTRENA_Entrenadores_ID" id="BE2BB9F3-667D-2A09-D3D2-B400E9978174">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>2B218654-80C2-616F-AEFD-612D696D639D</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C638DD42-AE35-B220-4572-BD0F1EACF8B1" referredColumn="98667AE9-32A2-B5CC-8062-C68F71BBE404"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0F33A659-96B1-0FF8-CF77-9A5BAD795607" name="SESION_PK">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>7A52F863-7DAD-24D7-ADFE-6CA6CF91463B</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A0265AE-4989-5BCC-0B52-E1DB5F10DEE7"/>
+<colUsage columnID="4B26BA60-139F-B379-C3B3-3906FD45328E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="39FE2B70-FD65-7772-CEBE-5D4EEFBE116F" name="SESION_PLAN_FK">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>9BD5E067-3A26-DA2C-DB7E-A288EF32376A</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="F3695B4D-92DF-33C4-0375-85EEC21010DF" name="SESION_ENTRENA_FK">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>B922FF08-636C-31FE-4200-17272F7E8E7F</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0DACCEF-D0B2-DCA5-A44D-16DFAB744DAA"/>
+<colUsage columnID="BE2BB9F3-667D-2A09-D3D2-B400E9978174"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

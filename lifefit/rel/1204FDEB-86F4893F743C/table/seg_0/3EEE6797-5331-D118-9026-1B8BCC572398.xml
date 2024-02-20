@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3EEE6797-5331-D118-9026-1B8BCC572398" name="EJERCICIO">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>E4CA33CF-3CBB-9400-7416-D066EFB7C534</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="954ACFE3-DB05-F8BF-3739-BC3755B6B275">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>3C1FA892-1E82-3206-7FC5-9658A20DA030</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="A9FE210E-901B-0CEE-E27F-71D30F33C63B">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>D4F65C47-7335-539B-C82A-C5202D8AFAAB</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="15036764-7FBD-73EC-812B-ECCB3C08901D">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>65D2E182-E751-7E76-B4C0-B9D9CBA2DB28</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Video" id="387B9228-2E49-C59D-6C6C-5401B36760C1">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>E830A7FE-366A-C0EB-59C6-216D63E405E6</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Imagen" id="CAA751C1-2A1C-7EEF-AFC7-AF6343967DA5">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>E0B32D56-5A1E-B1D6-40C3-4E39BCF5F59A</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3A7383AE-4036-AE26-6BD9-E1570FE6B919" name="EJERCICIO_PK">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>10F69F9B-148A-DD8D-8401-0F8BC1EF6D37</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="954ACFE3-DB05-F8BF-3739-BC3755B6B275"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

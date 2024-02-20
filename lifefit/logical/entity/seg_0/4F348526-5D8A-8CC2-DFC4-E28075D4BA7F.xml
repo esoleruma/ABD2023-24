@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4F348526-5D8A-8CC2-DFC4-E28075D4BA7F" name="ENTRENADOR">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 10:31:23 UTC</createdTime>
+<ownerDesignName>lifefit</ownerDesignName>
+<engineerTo>
+<item key="1204FDEB-8020-350D-822E-86F4893F743C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="0761C7C6-42B4-FCFB-51B8-88777C59F73F">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 10:32:31 UTC</createdTime>
+<ownerDesignName>lifefit</ownerDesignName>
+<engineerTo>
+<item key="1204FDEB-8020-350D-822E-86F4893F743C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="19C231E0-0693-C9B4-B02F-904BA8E404FE">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 10:33:52 UTC</createdTime>
+<ownerDesignName>lifefit</ownerDesignName>
+<engineerTo>
+<item key="1204FDEB-8020-350D-822E-86F4893F743C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellidos" id="05D65476-3A6E-ECA7-0E68-60321D4FAF54">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 10:34:02 UTC</createdTime>
+<ownerDesignName>lifefit</ownerDesignName>
+<engineerTo>
+<item key="1204FDEB-8020-350D-822E-86F4893F743C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefono" id="F884F108-139D-CF15-1622-105A51E53340">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 10:34:09 UTC</createdTime>
+<ownerDesignName>lifefit</ownerDesignName>
+<engineerTo>
+<item key="1204FDEB-8020-350D-822E-86F4893F743C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Correoe" id="1A7A84E6-3BA2-A345-9DF6-7DE37F290193">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 10:34:17 UTC</createdTime>
+<ownerDesignName>lifefit</ownerDesignName>
+<engineerTo>
+<item key="1204FDEB-8020-350D-822E-86F4893F743C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CENTROS_ID" id="1779CBF1-BBD1-478B-2A51-7837536862C7">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 10:40:09 UTC</createdTime>
+<generatorID>A6AAE6CF-DEE6-CA9A-01EB-5F65F475567E</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<engineerTo>
+<item key="1204FDEB-8020-350D-822E-86F4893F743C" value="true"/>
+</engineerTo>
+<referedAttribute>65E78ED3-0E42-3D22-A0AB-D211F8EF944A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Disponibilidad" id="565FBE28-F0D0-4C56-0994-9A840E440019">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:19:43 UTC</createdTime>
+<ownerDesignName>lifefit</ownerDesignName>
+<engineerTo>
+<item key="1204FDEB-8020-350D-822E-86F4893F743C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="29F81B98-7725-B83A-47A8-5D348199C2BF" name="Entrenadores PK">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 10:32:41 UTC</createdTime>
+<ownerDesignName>lifefit</ownerDesignName>
+<engineerTo>
+<item key="1204FDEB-8020-350D-822E-86F4893F743C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0761C7C6-42B4-FCFB-51B8-88777C59F73F</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="02C0DDE6-0EF6-7D39-E067-055AF0AE343C" name="Key_2">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 10:35:00 UTC</createdTime>
+<ownerDesignName>lifefit</ownerDesignName>
+<engineerTo>
+<item key="1204FDEB-8020-350D-822E-86F4893F743C" value="true"/>
+</engineerTo>
+<newElementsIDs>1A7A84E6-3BA2-A345-9DF6-7DE37F290193</newElementsIDs>
+<usedAttributes>
+<attributeRef>1A7A84E6-3BA2-A345-9DF6-7DE37F290193</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="EC7DE409-037B-503C-E205-FB54D9688E1D" name="Key_3">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 10:35:16 UTC</createdTime>
+<ownerDesignName>lifefit</ownerDesignName>
+<engineerTo>
+<item key="1204FDEB-8020-350D-822E-86F4893F743C" value="true"/>
+</engineerTo>
+<newElementsIDs>F884F108-139D-CF15-1622-105A51E53340</newElementsIDs>
+<usedAttributes>
+<attributeRef>F884F108-139D-CF15-1622-105A51E53340</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

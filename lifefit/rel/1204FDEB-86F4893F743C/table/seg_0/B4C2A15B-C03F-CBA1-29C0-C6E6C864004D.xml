@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B4C2A15B-C03F-CBA1-29C0-C6E6C864004D" name="CENTRO">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>01250451-CECF-28A2-F086-8D454C96FB2B</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="8012AC24-35DD-ECC7-9E2C-BD7B9F00415C">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>65E78ED3-0E42-3D22-A0AB-D211F8EF944A</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="510E93C6-DADF-256E-11CA-4AC0C53207B6">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>5CE44084-5453-529D-53A3-590218FC40DC</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dirección" id="EED6DA50-1E54-8F81-5182-1725AE81A34F">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>59E8F4D7-90B6-2639-2569-529FF663B804</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CPostal" id="20DB4BAF-66B0-C677-D9DC-006759C39192">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>18D1F081-8DF2-AB1C-5B23-A9163759C63D</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="76918A8E-3654-9EFF-1CA1-47ADA415308D" name="CENTRO_PK">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>9F4CBCDF-9113-2FEB-02F7-65E87FA37C01</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8012AC24-35DD-ECC7-9E2C-BD7B9F00415C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

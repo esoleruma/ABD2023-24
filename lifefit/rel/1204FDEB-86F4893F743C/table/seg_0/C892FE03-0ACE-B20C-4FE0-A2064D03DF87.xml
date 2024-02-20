@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C892FE03-0ACE-B20C-4FE0-A2064D03DF87" name="CONFORMAN">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>B342BCAD-4E04-C495-3502-70E8A395EE47</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Series" id="B0DD52B7-0A0A-4919-BFD8-24251D3FBE35">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>1F00E863-0A56-E5E9-BC4A-E50F91BE2124</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Repeticiones" id="612F9405-0E8D-2A73-667A-D1EC16757C7F">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>CC3E98E1-4CAF-3649-F512-1F255B0B773B</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Duracion" id="9A1CC540-8B72-BC4E-CCB0-A991687883ED">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>1C3A0716-ECCB-357C-7637-D9582A0C770C</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RUTINA_ID" id="B321D023-AC25-03C2-A666-4083958AD183">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>083A0340-D58C-20EF-7825-2B54E09670D4</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7FDB9E7D-7A90-D5C0-B2EE-EC692BE000D6" referredColumn="15681BEB-874C-4E2F-0CAB-2353A93655E6"/>
+</associations>
+</Column>
+<Column name="EJERCICIO_ID" id="088CE55B-BD80-93DA-FCB3-AA335C5179D5">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>80128934-6068-8AF6-C42F-575896CD3DE7</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4DF9E866-2246-351F-1664-BB4A600046C5" referredColumn="954ACFE3-DB05-F8BF-3739-BC3755B6B275"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5998A686-05CE-CB17-5B56-C49F7816CB5B" name="CONFORMAN_PK">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>FE6C29B6-2D90-D044-4C69-C9AE1EE044FF</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B321D023-AC25-03C2-A666-4083958AD183"/>
+<colUsage columnID="088CE55B-BD80-93DA-FCB3-AA335C5179D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C0F70C3-C5A5-E239-58EA-FACE60DCEF2E" name="CONFORMAN_RUTINA_FK">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>529AAFA6-22BF-1CAE-20BF-7F6611A80837</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B321D023-AC25-03C2-A666-4083958AD183"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A40862E4-90CA-F582-7497-2F03E5FB3250" name="CONFORMAN_EJERCICIO_FK">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>3172D757-76D0-2AE7-4B08-3CFEC06E3CEA</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="088CE55B-BD80-93DA-FCB3-AA335C5179D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

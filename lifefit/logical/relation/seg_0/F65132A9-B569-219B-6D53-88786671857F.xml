@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Inscrito" directorySegmentName="seg_0" id="F65132A9-B569-219B-6D53-88786671857F">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 10:49:25 UTC</createdTime>
+<ownerDesignName>lifefit</ownerDesignName>
+<engineerTo>
+<item key="1204FDEB-8020-350D-822E-86F4893F743C" value="true"/>
+</engineerTo>
+<sourcePk>9F4CBCDF-9113-2FEB-02F7-65E87FA37C01</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>01250451-CECF-28A2-F086-8D454C96FB2B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>45EF9CE7-0629-811F-1684-9BE6D10EFBC0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

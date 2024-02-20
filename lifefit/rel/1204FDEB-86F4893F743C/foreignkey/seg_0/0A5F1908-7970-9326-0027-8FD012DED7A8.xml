@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0A5F1908-7970-9326-0027-8FD012DED7A8" containerWithKeyObject="04B9494A-3F6F-5B66-D3EF-204C88C7006F" localFKIndex="39FE2B70-FD65-7772-CEBE-5D4EEFBE116F" name="SESION_PLAN_FK">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>9BD5E067-3A26-DA2C-DB7E-A288EF32376A</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<referredTableLongName>PLAN</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EFE90D40-D230-B3DE-4167-07BA0E369F9D</referredTableID>
+<keyObject>4A823626-54B3-F2C9-4D4D-94A587564EA7</keyObject>
+<referredKeyID>4A823626-54B3-F2C9-4D4D-94A587564EA7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>RUTINA_ID,ENTRENA_CLIENTE_ID,ENTRENA_Entrenadores_ID,Inicio</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

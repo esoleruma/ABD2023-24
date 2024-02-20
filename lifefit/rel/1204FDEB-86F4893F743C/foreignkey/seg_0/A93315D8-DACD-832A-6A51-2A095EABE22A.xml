@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A93315D8-DACD-832A-6A51-2A095EABE22A" containerWithKeyObject="EB586DB0-66D0-39E1-BD43-94B31C3E6CA4" localFKIndex="3AB9B901-8C78-578A-34B6-46154385AD9C" name="ENTRENA_CLIENTE_FK">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>90E40A1D-5F06-EFEB-C8F0-5816C04C6C1D</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<referredTableLongName>CLIENTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>19E28A8E-3CDF-7321-4F12-68B6DDA4E4AB</referredTableID>
+<keyObject>805AB9A8-9AC0-9BE3-9AC8-81B8DD98B670</keyObject>
+<referredKeyID>805AB9A8-9AC0-9BE3-9AC8-81B8DD98B670</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

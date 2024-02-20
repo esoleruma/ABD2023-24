@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EB586DB0-66D0-39E1-BD43-94B31C3E6CA4" name="ENTRENA">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>E6D07C99-7DD0-471E-9E62-D1348F8DB60F</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CLIENTE_ID" id="E050F8EE-DC58-211A-A3C6-15F00538737E">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>3D24ECF1-ED7C-505E-C92B-FDCFF653C3B2</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A93315D8-DACD-832A-6A51-2A095EABE22A" referredColumn="91AFBD75-F62D-0968-CB5E-8F2B956C7163"/>
+</associations>
+</Column>
+<Column name="ENTRENADOR_ID" id="98667AE9-32A2-B5CC-8062-C68F71BBE404">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>D7AB1153-2D81-F668-AF6F-ACB7658924B3</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF6E8B07-D792-6B03-C933-A0FE4DDC12D2" referredColumn="77FA2F4C-4595-55CB-BB92-498D2C80B28B"/>
+</associations>
+</Column>
+<Column name="Especialidad" id="AB68B202-8D26-93D8-4DB2-CEA9F32E8343">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>08E5D6B0-CF39-9695-A6D0-C311C9A1A069</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="196F986E-2D17-A216-EDB5-0CAF93B9A754" name="ENTRENA_PK">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>3E300322-E411-51F9-2A50-CCC84BAB5EFA</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E050F8EE-DC58-211A-A3C6-15F00538737E"/>
+<colUsage columnID="98667AE9-32A2-B5CC-8062-C68F71BBE404"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3AB9B901-8C78-578A-34B6-46154385AD9C" name="ENTRENA_CLIENTE_FK">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>90E40A1D-5F06-EFEB-C8F0-5816C04C6C1D</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E050F8EE-DC58-211A-A3C6-15F00538737E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6CD467BC-254D-BBE9-77AD-EA97E717D6D4" name="ENTRENA_ENTRENADOR_FK">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>FFDCE3A2-C001-586E-2BB4-0BAB8796B77B</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98667AE9-32A2-B5CC-8062-C68F71BBE404"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

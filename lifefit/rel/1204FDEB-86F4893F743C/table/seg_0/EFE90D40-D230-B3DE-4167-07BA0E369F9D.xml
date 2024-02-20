@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EFE90D40-D230-B3DE-4167-07BA0E369F9D" name="PLAN">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>B641126C-EEAE-E2F3-64BF-5F2471C1F54E</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RUTINA_ID" id="26571F26-6D22-EF65-3773-37357B7234E0">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>D8DA4AA4-383F-CA17-0816-E2CC038E3AE0</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F1785F74-C111-D666-1667-C87DC6893DB5" referredColumn="15681BEB-874C-4E2F-0CAB-2353A93655E6"/>
+</associations>
+</Column>
+<Column name="ENTRENA_CLIENTE_ID" id="6218518F-0A13-6574-98C8-2DAEB5D0DFC7">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>D3898EB3-26C6-20FF-E4A4-409EF442788E</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8B8044E8-04D0-9C3C-5136-1F17D10012F8" referredColumn="E050F8EE-DC58-211A-A3C6-15F00538737E"/>
+</associations>
+</Column>
+<Column name="ENTRENA_Entrenadores_ID" id="3070FD4E-2F87-2FAC-7100-61599113B353">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>A0DACA26-64CE-C080-2CB1-43A6494A99B7</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8B8044E8-04D0-9C3C-5136-1F17D10012F8" referredColumn="98667AE9-32A2-B5CC-8062-C68F71BBE404"/>
+</associations>
+</Column>
+<Column name="Inicio" id="CB81CAD6-FE04-27F0-2912-1A1C21C964F8">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>083A7B77-A448-E365-ABD4-C8662182233D</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fin" id="DD7C5D57-11C8-178B-F4C2-023D35DCB7FA">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>5854C5F8-0405-751D-9B1D-7EE0EF774E5B</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4A823626-54B3-F2C9-4D4D-94A587564EA7" name="PLAN_PK">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>AF278B8F-5CE2-B0FE-58E7-DECF1C9350A9</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26571F26-6D22-EF65-3773-37357B7234E0"/>
+<colUsage columnID="6218518F-0A13-6574-98C8-2DAEB5D0DFC7"/>
+<colUsage columnID="3070FD4E-2F87-2FAC-7100-61599113B353"/>
+<colUsage columnID="CB81CAD6-FE04-27F0-2912-1A1C21C964F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="54862B66-0D56-C313-0745-67824B1E167B" name="PLAN_ENTRENA_FK">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>952D7B14-076E-F9CB-3E51-08D1F0CE9C07</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6218518F-0A13-6574-98C8-2DAEB5D0DFC7"/>
+<colUsage columnID="3070FD4E-2F87-2FAC-7100-61599113B353"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A41580D-EAC3-E706-69BA-E6DD4F324FCD" name="PLAN_RUTINA_FK">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>DC8263B3-3B20-172E-E0BC-5AA38D6451B1</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26571F26-6D22-EF65-3773-37357B7234E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

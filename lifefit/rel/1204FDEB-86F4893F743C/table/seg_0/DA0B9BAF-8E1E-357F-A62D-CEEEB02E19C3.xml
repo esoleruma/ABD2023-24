@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DA0B9BAF-8E1E-357F-A62D-CEEEB02E19C3" name="CITAS">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>4E2235B7-E92C-6541-59C0-028BD6C3C61C</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ENTRENA_CLIENTE_ID" id="136F59BA-F22F-ED96-52EB-B3D9E13B5601">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>880FFFEE-8AEE-F8C5-D209-BCCD855863AF</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="534380D9-517D-2CE4-FAEE-5F42A34DA50D" referredColumn="E050F8EE-DC58-211A-A3C6-15F00538737E"/>
+</associations>
+</Column>
+<Column name="ENTRENA_Entrenadores_ID" id="8AF8B7F7-01DC-DB85-66CB-61ED4C6BE0B9">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>F68E7D59-72BF-977D-129E-9AEAED6EC210</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="534380D9-517D-2CE4-FAEE-5F42A34DA50D" referredColumn="98667AE9-32A2-B5CC-8062-C68F71BBE404"/>
+</associations>
+</Column>
+<Column name="Fecha" id="46F33BB5-AD7B-2F41-17F0-90BA64E478B8">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>6077D62E-353A-2B39-9933-DF2B6D7A85D5</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Modalidad" id="4485AEDC-C20B-8994-7E10-04D5BF596B71">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>9F312B6A-8483-606F-922C-5E13A7DB8435</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CD3538D3-972A-8386-2173-4B0D7AA5D1F4" name="CITAS_PK">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>8FDAC4B5-E7F3-1C01-C0B5-0B70B91A60ED</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="136F59BA-F22F-ED96-52EB-B3D9E13B5601"/>
+<colUsage columnID="8AF8B7F7-01DC-DB85-66CB-61ED4C6BE0B9"/>
+<colUsage columnID="46F33BB5-AD7B-2F41-17F0-90BA64E478B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1586AFE0-9F6E-581F-0932-D82212F36481" name="CITAS_ENTRENA_FK">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>6D92C1F7-0AD9-B303-8806-789F6CB0D870</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="136F59BA-F22F-ED96-52EB-B3D9E13B5601"/>
+<colUsage columnID="8AF8B7F7-01DC-DB85-66CB-61ED4C6BE0B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E101BA6B-A96A-3F79-882A-FC67DB9E84D4" name="ENTRENADOR">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>4F348526-5D8A-8CC2-DFC4-E28075D4BA7F</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="77FA2F4C-4595-55CB-BB92-498D2C80B28B">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>0761C7C6-42B4-FCFB-51B8-88777C59F73F</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="AB211E5F-695C-B862-0CE7-13BA8E807BED">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>19C231E0-0693-C9B4-B02F-904BA8E404FE</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellidos" id="363F069C-D56A-A1C9-1909-A767CAA8E3F2">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>05D65476-3A6E-ECA7-0E68-60321D4FAF54</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefono" id="C2BF5F5A-0736-85A7-4B24-EEEF2171FA15">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>F884F108-139D-CF15-1622-105A51E53340</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Correoe" id="A41F7907-F918-7948-C76E-90E66E325309">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>1A7A84E6-3BA2-A345-9DF6-7DE37F290193</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CENTRO_ID" id="C8A89615-0241-368C-7320-8D22AD4BCBBB">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>1779CBF1-BBD1-478B-2A51-7837536862C7</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="150AEBF0-8725-FFBB-785D-C3FA97AC5DB0" referredColumn="8012AC24-35DD-ECC7-9E2C-BD7B9F00415C"/>
+</associations>
+</Column>
+<Column name="Disponibilidad" id="F25907CC-5ADD-6D49-B71D-12D76E5579FB">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>565FBE28-F0D0-4C56-0994-9A840E440019</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="03506ACE-439D-80B9-3AE7-5FEEE876FED3" name="ENTRENADOR_PK">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>29F81B98-7725-B83A-47A8-5D348199C2BF</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77FA2F4C-4595-55CB-BB92-498D2C80B28B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="64AE9DF7-958F-562A-798B-F8323E3AA38F" name="ENTRENADOR_Correoe_UN">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>02C0DDE6-0EF6-7D39-E067-055AF0AE343C</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A41F7907-F918-7948-C76E-90E66E325309"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ACE223F1-9F3E-D9EF-0F75-21E0BA7A81CF" name="ENTRENADOR_Telefono_UN">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>EC7DE409-037B-503C-E205-FB54D9688E1D</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2BF5F5A-0736-85A7-4B24-EEEF2171FA15"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="80AE9F48-7E4A-F347-1CA6-7448197221D0" name="ENTRENADOR_CENTRO_FK">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>A6AAE6CF-DEE6-CA9A-01EB-5F65F475567E</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8A89615-0241-368C-7320-8D22AD4BCBBB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7FDB9E7D-7A90-D5C0-B2EE-EC692BE000D6" containerWithKeyObject="C892FE03-0ACE-B20C-4FE0-A2064D03DF87" localFKIndex="9C0F70C3-C5A5-E239-58EA-FACE60DCEF2E" name="CONFORMAN_RUTINA_FK">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:28:24 UTC</createdTime>
+<generatorID>529AAFA6-22BF-1CAE-20BF-7F6611A80837</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<referredTableLongName>RUTINA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3205E0FB-A088-B231-6CA1-CBF508B16FA4</referredTableID>
+<keyObject>74002FE3-809C-01F5-B839-15A420B3BA70</keyObject>
+<referredKeyID>74002FE3-809C-01F5-B839-15A420B3BA70</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

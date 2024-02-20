@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B342BCAD-4E04-C495-3502-70E8A395EE47" name="CONFORMAN">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:01:01 UTC</createdTime>
+<ownerDesignName>lifefit</ownerDesignName>
+<engineerTo>
+<item key="1204FDEB-8020-350D-822E-86F4893F743C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Series" id="1F00E863-0A56-E5E9-BC4A-E50F91BE2124">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:01:11 UTC</createdTime>
+<ownerDesignName>lifefit</ownerDesignName>
+<engineerTo>
+<item key="1204FDEB-8020-350D-822E-86F4893F743C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Repeticiones" id="CC3E98E1-4CAF-3649-F512-1F255B0B773B">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:01:17 UTC</createdTime>
+<ownerDesignName>lifefit</ownerDesignName>
+<engineerTo>
+<item key="1204FDEB-8020-350D-822E-86F4893F743C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Duracion" id="1C3A0716-ECCB-357C-7637-D9582A0C770C">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:01:25 UTC</createdTime>
+<ownerDesignName>lifefit</ownerDesignName>
+<engineerTo>
+<item key="1204FDEB-8020-350D-822E-86F4893F743C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rutinas_ID" id="083A0340-D58C-20EF-7825-2B54E09670D4">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:01:34 UTC</createdTime>
+<generatorID>529AAFA6-22BF-1CAE-20BF-7F6611A80837</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<engineerTo>
+<item key="1204FDEB-8020-350D-822E-86F4893F743C" value="true"/>
+</engineerTo>
+<referedAttribute>C6FEAC41-D81B-D08D-9952-047A809D8BCE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ejercicios_ID" id="80128934-6068-8AF6-C42F-575896CD3DE7">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:01:41 UTC</createdTime>
+<generatorID>3172D757-76D0-2AE7-4B08-3CFEC06E3CEA</generatorID>
+<ownerDesignName>lifefit</ownerDesignName>
+<engineerTo>
+<item key="1204FDEB-8020-350D-822E-86F4893F743C" value="true"/>
+</engineerTo>
+<referedAttribute>3C1FA892-1E82-3206-7FC5-9658A20DA030</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FE6C29B6-2D90-D044-4C69-C9AE1EE044FF" name="CONFORMAN PK">
+<createdBy>esc</createdBy>
+<createdTime>2024-02-19 11:01:34 UTC</createdTime>
+<ownerDesignName>lifefit</ownerDesignName>
+<engineerTo>
+<item key="1204FDEB-8020-350D-822E-86F4893F743C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>083A0340-D58C-20EF-7825-2B54E09670D4</attributeRef>
+<attributeRef>80128934-6068-8AF6-C42F-575896CD3DE7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
